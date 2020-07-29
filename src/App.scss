@@ -1,0 +1,81 @@
+// antd style fixes & reset
+.App {
+  font-size: 12px;
+  .ant-pagination-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ant-tree-switcher-line-icon {
+    color: #1890ff;
+  }
+
+  .ant-tree {
+    .ant-tree-node-content-wrapper.ant-tree-node-selected {
+      background-color: transparent;
+      color: #1890ff;
+      font-weight: bold;
+    }
+  }
+
+  .hide-input-number-handler {
+    .ant-input-number {
+      padding-right: 0 !important;
+    }
+    .ant-input-number-handler-wrap {
+      display: none;
+    }
+  }
+
+  .show-input-number-handler {
+    .ant-input-number-handler-wrap {
+      opacity: 1;
+    }
+  }
+  $header-height: 36px;
+  .ant-layout-header {
+    height: $header-height;
+    line-height: $header-height;
+    padding: 0;
+    box-shadow: 0 1px 0px #a7a7a7;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#e6e6e6, #dbdbdb, #cdcdcd);
+    .ant-menu {
+      border: none;
+      background: transparent;
+    }
+  }
+}
+// popup menu customize
+.ant-menu {
+  user-select: none;
+}
+.ant-menu-submenu.ant-menu-submenu-popup {
+  .ant-menu-item-group-title {
+    padding: 8px;
+    padding-bottom: 4px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .ant-menu-sub {
+    background: #eee;
+  }
+  $height: 30px;
+  .ant-menu-item {
+    height: $height;
+    line-height: $height;
+    margin: 0;
+    &:hover {
+      background: #1890ff;
+      color: #fff;
+    }
+  }
+}
+
+.rc-color-picker-wrap,
+.rc-color-picker-trigger {
+  height: 16px !important;
+  width: 16px !important;
+}

@@ -1,0 +1,52 @@
+{
+  "name": "websketch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@ant-design/icons": "^4.2.1",
+    "@json-editor/json-editor": "^2.3.0",
+    "ajv": "^6.12.3",
+    "ajv-i18n": "^3.5.0",
+    "antd": "^4.3.4",
+    "file-saver": "^2.0.2",
+    "jsoneditor": "^9.0.3",
+    "lodash": "^4.17.19",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.debounce": "^4.0.8",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.13.1",
+    "rc-color-picker": "^1.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hotkeys-hook": "^2.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "recoil": "^0.0.10",
+    "uuid": "^8.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
